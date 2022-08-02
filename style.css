@@ -1,0 +1,33 @@
+#insignias{
+    width: 200px;
+    height: 100px;
+    background-color:cadetblue;
+    display: inline;
+}
+
+#boton{
+   justify-content: center;
+}
+
+.cuerpo{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+div.insignia{
+    width: 150px;
+    height: 250px;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 10px;
+}
+
+h3{
+    background-color: rgb(245, 203, 188);
+}
+img{
+
+    width: 90px;
+    height: 90px;
+}
