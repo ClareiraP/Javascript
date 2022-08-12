@@ -1,12 +1,15 @@
+body{
+    background-color: #f9f5f0dc;
+}
 #insignias{
     width: 200px;
     height: 100px;
     background-color:cadetblue;
     display: inline;
-}
+    }
 
-#boton{
-   justify-content: center;
+#cgoproducto{
+    justify-content: center;
 }
 
 .cuerpo{
@@ -16,18 +19,77 @@
 }
 
 div.insignia{
-    width: 150px;
-    height: 250px;
-    background-color: antiquewhite;
+    width: 180px;
+    height: 310px;
+    background-color:#b9c9fe; 
     display: inline-block;
     padding: 10px;
+    margin:5px;
+    text-align: center; 
 }
 
 h3{
-    background-color: rgb(245, 203, 188);
+    background-color:  #ebbb7adc(223, 191, 143);
+}
+h2{
+    background-color: rgb(8, 8, 8);
+    color:#b9c9fe; 
+    margin: 3px;
+    
 }
 img{
 
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+}
+
+
+table { 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+    font-size: 12px; 
+    margin: 45px; 
+    width: 550px;
+    text-align: center; 
+    border-collapse: collapse; 
+}
+
+th { 
+    font-size: 13px; 
+    font-weight: normal; 
+    padding: 8px; 
+    background: #b9c9fe; 
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff; 
+    color: #039; }
+
+td { 
+    padding: 8px; 
+    background: #e8edff; 
+    border-bottom: 1px solid #fff; 
+    color: #669; 
+    border-top: 1px solid transparent; 
+}
+
+
+tr:hover td { 
+    background: #d0dafd; 
+    color: #339; 
+}
+
+.editar {
+    color: blue; 
+    cursor:pointer;
+}
+
+#contenedorForm {
+    margin-left: 45px; 
+    font-size:12px;
+}
+
+.boton {   
+    color: black; 
+    padding: 5px; 
+    margin: 10px;
+    background-color: #b9c9fe;
+    font-weight: bold; 
 }
